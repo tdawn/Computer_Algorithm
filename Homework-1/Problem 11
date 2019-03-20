@@ -1,1 +1,32 @@
-
+Using your favorite computer programming language (but C/C++, Java, Python, C#
+recommended), write a program that calculate the following:
+A group of zombies walk on a very narrow bridge. The length of the bridge is k meters.
+The moving speed of each zombie is one meter per second. When a zombie reaches an end
+of the bridge, he leaves the bridge. When two zombies meet, they turn back and walk in
+opposite directions.
+You are given the original positions of zombies in the bridge, but you don’t know the initial
+moving directions of the zombies. You have to compute the earliest time and the latest
+time for all zombies to leave the bridge.
+Input:
+The first line of input, you are given an integer number for the number of zombies (let it
+n). The second line gives you the length of the bridge (k in meters). The third (the last)
+line has n integers denoting the initial positions of zombies in the bridge.
+All the input integers are not bigger than 1,000,000, separated by space.
+Output:
+You print two numbers, the earliest time and the latest time (in seconds).
+Example:
+Input
+4
+10
+2 3 6 7
+Output
+4 8
+3
+How do zombie walk? Answer of a question from one student
+123456789 (time=1)
+><<
+123456789 (time=2)
+<>
+<
+123456789 (time=3)
+<< >
